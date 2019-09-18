@@ -1,0 +1,51 @@
+{
+ "name": "sunburstdata",
+ "children": [
+  {
+   "name": "Base",
+   "children": [
+    {
+     "name": "Factors",
+     "children": [
+      {"name": "SKU", "size": 3938},
+      {"name": "Trend", "size": 3812},
+      {"name": "Seasonality", "size": 6714},
+      {"name": "Season", "size": 743}
+     ]
+    },
+    {
+     "name": "MacroFactors",
+     "children": [
+      {"name": "GDP", "size": 3534},
+      {"name": "Inflation", "size": 5731},
+      {"name": "Exports", "size": 7840},
+      {"name": "Imports", "size": 5914},
+      {"name": "GrowthRate", "size": 3416}
+     ]
+    },
+    {
+     "name": "Price",
+     "children": [
+      {"name": "OwnPrice", "size": 7074},
+      {"name": "CompPrice", "size":5043}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Incremental",
+   "children": [
+    {
+     "name": "OwnMedia",
+     "children": [
+      {"name": "TV-OwnMedia", "size": 1302},
+      {"name": "Radio-OwnMedia", "size": 24593},
+      {"name": "Banners-OwnMedia", "size": 652},
+      {"name": "NewsPaper-OwnMedia", "size": 636},
+      {"name": "Banners-OwnMedia", "size": 6703}
+     ]
+    }
+   ]
+  }
+ ]
+}
